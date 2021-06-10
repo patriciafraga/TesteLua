@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    /* imagem de fundo */
+    background-image: url(https://cutt.ly/qnIRM8Y);
+    /* remover repetição */
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* cor de fundo */
+    background-color: black;
+    background-attachment: fixed;
+}
+/* vermelho #FF0000 */
+/* green #00FF00, azul #0000FF, o resto é mistura!!!! */
+
+/* ambos os h2 estarão em verde se identificados apenas pelo h2 */
+#green {
+    color: #008000;
+    font-style: italic; 
+}
+/* para mudar tem de usar classe ou id no html 
+ex. id="green" e azul id="blue". 
+Aqui no css elas serão identificadas pelo # e seu id */
+#blue {
+    color: #0000FF;
+    font-weight:inherit;
+}
+.colors {
+    color: #31addf;
+    font-size: 24px;
+}
